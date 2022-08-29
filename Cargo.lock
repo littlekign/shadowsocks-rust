@@ -621,7 +621,7 @@ dependencies = [
  "httpdate",
  "itoa",
  "pin-project-lite",
- "socket2 0.4.1",
+ "socket2 0.4.6",
  "tokio",
  "tower-service",
  "tracing",
@@ -786,9 +786,9 @@ checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 
 [[package]]
 name = "libc"
-version = "0.2.101"
+version = "0.2.132"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3cb00336871be5ed2c8ed44b60ae9959dc5b9f08539422ed43f09e34ecaeba21"
+checksum = "8371e4e5341c3a96db127eb2465ac681ced4c433e01dd0e938adbef26ba93ba5"
 
 [[package]]
 name = "libmimalloc-sys"
@@ -1556,7 +1556,7 @@ dependencies = [
  "serde_json",
  "serde_urlencoded",
  "shadowsocks-crypto",
- "socket2 0.4.1",
+ "socket2 0.4.6",
  "spin 0.9.2",
  "thiserror",
  "tokio",
@@ -1633,7 +1633,7 @@ dependencies = [
  "rustls-native-certs",
  "serde",
  "shadowsocks",
- "socket2 0.4.1",
+ "socket2 0.4.6",
  "spin 0.9.2",
  "thiserror",
  "tokio",
@@ -1704,9 +1704,9 @@ dependencies = [
 
 [[package]]
 name = "socket2"
-version = "0.4.1"
+version = "0.4.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "765f090f0e423d2b55843402a07915add955e7d60657db13707a159727326cad"
+checksum = "10c98bba371b9b22a71a9414e420f92ddeb2369239af08200816169d5e2dd7aa"
 dependencies = [
  "libc",
  "winapi",
